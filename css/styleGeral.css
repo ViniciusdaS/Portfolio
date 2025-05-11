@@ -1,0 +1,69 @@
+body{
+    /*background-image:url("../img/imgsBackground/background4.webp");*/
+    background-size:cover;
+    background-repeat:no-repeat;
+    font-family:sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size:20px;
+}
+
+footer a[href*="github"]{
+    background-image: url("../img/github.png");
+    background-repeat: no-repeat;
+    background-size:contain;
+    text-indent: -9999px;
+    display: block;
+}
+
+footer ul li{
+    list-style:none;
+    font-size:50px; 
+}
+
+
+main{
+    text-align: center;
+    padding-bottom:20px;
+}
+
+main h1{
+    color:white;
+}
+
+.atalhos ul{
+    color: whitesmoke;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.atalhos ul li{
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+.atalhos ul li a, h1{
+    font-size: 30px;
+}
+
+.atalhos a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+
+.titulo{
+    color: black;
+    font-size: 100px;
+}
+
+#tituloHeader{
+    font-size:50px;
+}
+

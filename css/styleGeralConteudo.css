@@ -1,0 +1,42 @@
+body{
+    background-color:whitesmoke;
+    background-image:none;
+}
+
+.menuConteudo h1{
+    color:black;
+}
+
+.containerAulas{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items:center;
+    gap:20px;
+}
+
+.aulas{
+    background-color:whitesmoke;
+    width:300px;
+    border:solid;border-color:black;border-radius:10px;
+}
+
+.aulas ul{
+    padding:30px;
+}
+
+#links{
+    list-style:none;
+}
+
+#links li{
+    padding:5px;
+}
+
+#links li a{
+    text-decoration:none;
+    color:black;
+}
+
+#links h2{
+    margin:15px;
+}
