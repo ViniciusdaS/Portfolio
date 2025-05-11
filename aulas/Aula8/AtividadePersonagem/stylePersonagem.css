@@ -1,0 +1,61 @@
+body{
+    height: 100%;
+    width: 100%;
+    background-color:whitesmoke;
+}
+
+.containerPersonagens{
+    flex-wrap:wrap;
+    display:flex;
+    justify-content:center;
+    gap:20px;
+}
+
+.cartaoPersonagem{  
+    border:solid;
+    border-radius:8px;
+    width: 24%; height: auto;
+    font-size: 70%;
+}
+
+.cartaoPersonagem img{
+    width:100%;
+    height: auto;
+}
+
+.resumoPersonagem{
+    text-align:center;
+    font-size:80%;
+}
+
+h1{
+    padding-top:7px;
+}
+
+#textoInferior{
+    padding-top:10px;
+}
+
+#tanjiro{
+    background-color:red;
+}
+
+#rengoku{
+    background-color:darkorange;
+}
+
+#goto{
+    background-color:gray;
+}
+
+#oniFigu{
+    background-color:blue;
+}
+
+#rui{
+    background-color:whitesmoke;
+}
+
+#kokushibou{
+    background-color:purple;
+}
