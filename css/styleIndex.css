@@ -14,5 +14,14 @@ main{
     padding-top:3%;
 }
 
+/* response */
+
+@media screen and (min-height:400px) and (max-height:500px) {
+    .atalhosIndex{
+        padding-top:10%;
+        color:red;
+    }
+}
+
 
 

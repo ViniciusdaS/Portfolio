@@ -10,14 +10,6 @@ header {
     font-size:20px;
 }
 
-footer a[href*="github"]{
-    background-image: url("../img/github.png");
-    background-repeat: no-repeat;
-    background-size:contain;
-    text-indent: -9999px;
-    display: block;
-}
-
 footer ul li{
     list-style:none;
     font-size:50px; 

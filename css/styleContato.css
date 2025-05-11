@@ -1,16 +1,14 @@
 .bio{
     color: white;
     position:static;
-    padding-top:2%;
 }
 
 .perfil{
-    width: 20%;
-    border:solid;border-color:black;border-radius: 50%;
+    width:20%;
+    border:solid;border-color:black;border-radius:50%;
 }
 
 .bio h1{
-    font-size:20px;
     padding-top:10px;
 }
 
@@ -38,6 +36,6 @@
 /* Style Parallax */
 
 .parallax-window {
-    height:600px;
+    height:700px;
     background: transparent;
 }
