@@ -1,5 +1,6 @@
 body{
-    background-color:rgb(26, 26, 26);
+    background-image: url('../img/imgsBackground/background-home.jpg');
+    background-size: cover;
     background-repeat:no-repeat;
     font-family: sans-serif;
 }
