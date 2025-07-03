@@ -1,16 +1,28 @@
 .quadros{
-    padding-top:10%;
+    align-items: center;
+    width:70%;
+    padding-top:2%;
     text-align: center;
+    background-color:white;
+    border:solid black;
+    border-radius:1%;
 }
 
 .quadros img{
-    width:80%;
+    width:97%;
+    border:solid black;border-radius:2%;
 }
 
-.quadros h1, p{
+.quadros h1{
     font-size:50px;
     margin-bottom:2%;
-    color:whitesmoke;
+    color:black;
+}
+
+p{
+    color:black;
+    font-size:30px;
+    padding-top:2%;
 }
 
 @media screen and (min-height:430px) and (max-height:431px) {

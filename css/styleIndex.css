@@ -22,7 +22,22 @@ li {
 }
 
 li:hover{
-    transform: translate(3px);
+    transform: translateY(3px);
+}
+
+/* Animation */
+
+#icon img{
+    width: 20px;
+    animation-name:alien;
+    animation-duration:50s;
+    position:relative;
+    padding-top:2%;
+}
+
+@keyframes alien {
+    0%   {left:0%; top:0px;}
+    50%  {left:45%}
 }
 
 /* response */

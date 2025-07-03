@@ -1,41 +1,55 @@
+main{
+    display:flex;
+    justify-content: center;
+}
+
+#containerBio{
+    background-color:rgba(0, 0, 0, 0.903);
+    width:40%;
+    border:solid white;
+    border-radius:10px;
+    padding-top:2%;
+}
+
+#containerBio:hover{
+    border:solid purple;
+    transform: translateY(3%);
+}
+
 .bio{
     color: white;
     position:static;
 }
 
-.perfil{
+#perfil{
     width:20%;
-    border:solid;border-color:black;border-radius:50%;
+    border:solid black;border-radius:50%;
 }
 
 .bio h1{
     padding-top:10px;
 }
 
-.imgContatos{
-    width:5%;
+.bio a{
+    text-decoration: none;
+    color:white;
 }
 
-#icon img{
-    width: 20px;
-    animation-name:alien;
-    animation-duration:130s;
-    position:relative;
-    padding-top:2%;
+.bio a:hover{
+    text-decoration: underline purple;
+}
+
+.imgContatos{
+    width:5%;
 }
 
 .contatos{
     width:1%;
 }
 
-@keyframes alien {
-    0%   {left:0%; top:0px;}
-    25%  {left:100%}
-}
-
 /* Style Parallax */
 
 .parallax-window {
-    height:600px;
+    height:730px;
     background: transparent;
 }

@@ -6,7 +6,7 @@ body{
 
 header {
     text-align: center;
-    font-size:20px;
+    font-size:40px;
 }
 
 header ul li{
@@ -15,6 +15,7 @@ header ul li{
 
 header ul li:hover{
     transform: translate(3px);
+    text-decoration:underline purple;
 }
 
 footer ul li{

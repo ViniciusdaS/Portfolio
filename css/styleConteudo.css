@@ -11,6 +11,15 @@
     border:solid;border-color:black;border-radius:10px;
 }
 
+.aulas ul li:hover{
+    text-decoration:underline purple;
+}
+
+.aulas:hover{
+    transform: translateY(5px);
+    border-color:purple;
+}
+
 .aulas ul{
     padding:30px;
 }
@@ -30,4 +39,5 @@
 
 #links h2{
     margin:15px;
+    color:black;
 }
