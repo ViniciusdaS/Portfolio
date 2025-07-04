@@ -66,3 +66,21 @@ main h1{
 #tituloHeader{
     font-size:50px;
 } 
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    header {
+        font-size:10px;
+    }
+}
+
+@media screen and (min-width:410px) and (max-width:500px) {
+    header {
+        font-size:15px;
+    }
+}
+
+@media screen and (min-width:540px) and (max-width:600px) {
+    header {
+        font-size:20px;
+    }
+}

@@ -50,6 +50,16 @@ main{
 /* Style Parallax */
 
 .parallax-window {
-    height:730px;
+    height:700px;
     background: transparent;
 }
+
+@media screen and (min-width:300px) and (max-width:500px) {
+    #containerBio{
+        width:60%;
+    }
+    .bio h1{
+        font-size:15px;
+    }
+}
+
