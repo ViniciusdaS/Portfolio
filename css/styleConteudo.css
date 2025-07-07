@@ -44,9 +44,10 @@
 
 @media screen and (min-width:300px) and (max-width:400px) {
     .aulas{
-        width:100px; height:50px;
+        width:60px; height:30px;
+        padding-bottom:100px;
     }
     #links{
-        font-size: 1px;
+        font-size: 0px;
     }
 }
