@@ -1,90 +1,57 @@
-html{
-    height:100%;
-}
-
 body{
-    background-image: url('../img/imgsBackground/background-home.jpg');
+  font-family: verdana;
+  background-color: gray;
+  padding:0;margin:0;
 }
 
-#atalhosIndex{
-    display:grid;
-    justify-content: center;
-    padding-top:2%;
+header{
+  display:flex;
 }
 
-li {
-    border:solid purple;
-    border-radius:10px; 
+#containerAtalhos{
+  font-size: 50px;
+  background-color:whitesmoke;
+  width:300%;
 }
 
-li:hover{
-    transform: translateY(3px);
+#containerFoto{
+  background-color:black;
 }
 
-/* Animation */
-
-#icon img{
-    width: 20px;
-    animation-name:alien;
-    animation-duration:50s;
-    position:relative;
-    padding-top:2%;
+#containerFoto img{ 
+  width:100%;
+  border-radius:50%;
 }
 
-@keyframes alien {
-    0%   {left:0%; top:0px;}
-    50%  {left:45%}
+#atalhos {
+  padding-top:6%; padding-left:5%;
 }
 
-
-/* response */
-
-@media screen and (min-width:300px) and (max-width:500px) {
-    #atalhosIndex{
-      padding-top:30%;
-      font-size:50px;
-    }  
+#atalhos a{
+  text-decoration: none;
+  color:black;
 }
 
-@media screen and (min-width:501px) and (max-width:600px) {
-    #atalhosIndex{
-      padding-top:15%;
-      font-size:50px;
-    }  
+#atalhos li{
+  display: inline;
+  list-style: none;
 }
 
-@media screen and (min-width:700px) and (max-width:799px) {
-    #atalhosIndex{
-      padding-top:20%;
-      font-size: 90px;
-    }  
+#atalhos li:hover{
+  transform: translate(3px);
+  text-decoration:underline purple;
 }
 
-@media screen and (min-width:800px) and (max-width:900px) {
-    #atalhosIndex{
-      padding-top:15%;
-      font-size: 90px;
-    }  
+#containerApresentation{
+  text-align: center;
 }
 
-@media screen and (min-width:901px) and (max-width:999px) {
-    #atalhosIndex{
-      padding-top:20%;
-      font-size: 100px;
-    }  
+#containerApresentation a{
+  text-decoration: none;
+  color:black;
 }
 
-@media screen and (min-width:1000px) and (max-width:1100px) {
-    main{
-      padding-top:7%;
-    }
-    #atalhosIndex{
-      font-size: 50px;
-  }
-}
-
-@media screen and (min-width:1200px) and (max-width:1280px) {
-    #atalhosIndex{
-      font-size: 60px;
-  }
+#containerApresentation a:hover{
+  text-decoration:underline purple;
+  color:purple;
 }

@@ -1,0 +1,32 @@
+main{
+    padding-top:3%;padding-left:0%;
+}
+
+.textos{
+    border:solid;
+    border-radius:10px;
+    background-color:whitesmoke;
+    width:50%;height:auto;
+}
+
+.textos h1{
+    padding:2%;
+    color:black;
+    font-size:30px;
+}
+
+.quadros{
+    width:80%;
+}
+
+#quadro1{
+    padding-left:50%;
+}
+
+#quadro1, #quadro2{
+    display:inline-flex;
+}
+
+.quadros img{
+    width:50%;
+}
