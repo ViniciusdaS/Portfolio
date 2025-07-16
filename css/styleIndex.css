@@ -1,57 +1,31 @@
-body{
-  font-family: verdana;
-  background-color: gray;
-  padding:0;margin:0;
+*{
+  padding:0;
+  margin:0;
 }
 
-header{
-  display:flex;
-}
-
-#containerAtalhos{
-  font-size: 50px;
-  background-color:whitesmoke;
-  width:300%;
-}
-
-#containerFoto{
-  background-color:black;
-}
-
-#containerFoto img{ 
+html{
   width:100%;
-  border-radius:50%;
-}
-
-#atalhos {
-  padding-top:6%; padding-left:5%;
-}
-
-#atalhos a{
-  text-decoration: none;
-  color:black;
-}
-
-#atalhos li{
-  display: inline;
-  list-style: none;
-}
-
-#atalhos li:hover{
-  transform: translate(3px);
-  text-decoration:underline purple;
+  height:200%;
 }
 
 #containerApresentation{
-  text-align: center;
+  overflow: hidden;
+  height:525px; 
+  background-color:black;
 }
 
-#containerApresentation a{
-  text-decoration: none;
-  color:black;
+#containerTexto{
+  width:400px;
+  font-size: 26px;
+  padding-left:10%;
 }
 
-#containerApresentation a:hover{
-  text-decoration:underline purple;
-  color:purple;
+#containerApresentation h1{
+  color:whitesmoke;
+}
+
+#containerAtalhos{
+  height:530px;
+  background-image: url("/img/imgsBackground/background-home.jpg");
+  
 }
