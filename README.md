@@ -1,5 +1,12 @@
-# myBlog
-
-<p><b><> Languages: HTML </b>and <b>CSS.</b></p>
-<p><b>⚙️ Code editor: VS_Code.</b></p>
-<p><b>🛠️ Tools: Parallax(JQuery).</b></p>
+<html>
+    <body>
+        <h1>Meu portfólio profissional</h1>
+        <hr>
+        <p>Veja nesse repositório meu projeto de web site estático, meu
+        portfólio pessoal, profissional e acadêmico, esse portfólio foi
+        iniciado durante minhas aulas de frontend, onde aprendi a criar
+        sites web usando linguagens HTML, CSS e Javascript para criar 
+        sites estáticos sem a presença de banco de dados para armazenamento
+        de informações. Até o momento o site será totalmente estático, sem presença de backend.</p>
+    </body>
+</html>
