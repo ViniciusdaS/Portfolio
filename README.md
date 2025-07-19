@@ -3,9 +3,9 @@
 
 # Linguagens utilizadas 🧬
 
-## HTML
-## CSS
+* HTML
+* CSS
 
 # Recursos utilizados 📦
 
-## Parallax (JQuery)
+* Parallax (JQuery)
