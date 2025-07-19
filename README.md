@@ -9,3 +9,12 @@
         de informações. Até o momento o site será totalmente estático, sem presença de backend.</p>
     </body>
 </html>
+
+## Linguagens utilizadas 🧬
+
+# HTML
+# CSS
+
+## Recursos utilizados 📦
+
+# Parallax (JQuery)
