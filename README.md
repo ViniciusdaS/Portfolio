@@ -1,7 +1,7 @@
 <html>
     <body>
         <h1>Meu portfólio profissional</h1>
-        <hr>
+
         <p>Veja nesse repositório meu projeto de web site estático, meu
         portfólio pessoal, profissional e acadêmico, esse portfólio foi
         iniciado durante minhas aulas de frontend, onde aprendi a criar
