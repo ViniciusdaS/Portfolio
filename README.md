@@ -1,11 +1,11 @@
 # Meu portfólio profissional
-## Veja nesse repositório meu projeto de web site estático, meu portfólio pessoal, profissional e acadêmico, esse portfólio foi iniciado durante minhas aulas de frontend, onde aprendi a criar sites web usando linguagens HTML, CSS e Javascript para criar sites estáticos sem a presença de banco de dados para armazenamento de informações. Até o momento o site será totalmente estático, sem presença de backend.
+## Seja vem vindo ao repositório onde está o código usado em meu portfólio pessoal estático, o código que utilizei para construir meu portfólio ficará disponível aqui para qualquer curiosidade sobre a montagem do meu portfólio. O meu site-portfólio foi estruturado em HTML, estilizado em CSS e conta com o recurso de efeito Parallax, do framework JQuery.
 
-# Linguagens utilizadas 🧬
+## Ferramentas 🧱
 
-* HTML
-* CSS
+* HTML;
+* CSS;
 
-# Recursos utilizados 📦
+## Recursos 📦
 
-* Parallax (JQuery)
+* Parallax(JQuery);
