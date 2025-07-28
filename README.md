@@ -10,6 +10,6 @@
 
 * Parallax(JQuery);
 
-``
+````bash
 npm install express
-``
+````
