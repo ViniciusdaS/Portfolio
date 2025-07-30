@@ -5,7 +5,7 @@
 
 html{
   width:100%;
-  height:600%;
+  height:100%;
 }
 
 body{
@@ -39,54 +39,49 @@ header h1{
 }
 
 .parallax-window {
-    height:1000px;
+    height:100%;
+}
+
+/* Sobre */
+
+.sobre{
+  position:static;
+  background-color:cadetblue;
+  height:700px;
+}
+
+.containerSobre{
+  background-color:whitesmoke;
+  width:50%;
+  border:solid purple 3px; border-radius:10px;
+  color:blue;
+}
+
+.containerSobre h1{
+  padding:1%;
 }
 
 /* sobre mim */
 
 #sobreMim{
-  padding-top:16%;
-  padding-left:10%;
   background-color:aqua;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width:89.5%;height:700px;
-}
-
-#containerSobreMim{
-  background-color: black;
-  width:600px;height:400px;
-  border:solid whitesmoke;border-radius:10px;
-}
-
-#containerSobreMim h1{
-  color:green;
-  padding:2%;
 }
 
 /* Sobre o curso */
 
 #sobreCurso{
-  padding-top:16%;
-  padding-right:10%;
   background-color:green;
-  height:700px;
-}
-
-.icon{
-  position: relative;
-  width:10%;
-  padding-left:15%;
 }
 
 #containerSobreCurso{
   float: right;
-  background-color: black;
-  width:600px;height:400px;
-  border:solid whitesmoke;border-radius:10px;
+  margin-right:10%;margin-top:10%;
 }
 
-#containerSobreCurso h1{
-  color:green;
-  padding:2%;
+.icon{
+  width:10%;
+}
+
+.icon:hover{
+  width:11%;
 }
