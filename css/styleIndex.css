@@ -21,6 +21,7 @@ header{
 
 header h1{
   color:blue;
+  pointer-events: none;
 }
 
 #containerTextoHeader{
@@ -58,19 +59,21 @@ header h1{
 }
 
 .containerSobre h1{
+  pointer-events: none;
   padding:1%;
 }
 
 /* sobre mim */
 
 #sobreMim{
-  background-color:aqua;
+  background-size:cover;background-repeat: no-repeat;
+  background-image:url('/img/index/galera.jpeg');
 }
 
 /* Sobre o curso */
 
 #sobreCurso{
-  background-color:green;
+  background-color:aquamarine;
 }
 
 #containerSobreCurso{
