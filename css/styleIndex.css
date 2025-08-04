@@ -48,14 +48,14 @@ header h1{
 .sobre{
   position:static;
   background-color:cadetblue;
-  height:700px;
 }
 
 .containerSobre{
   background-color:whitesmoke;
-  width:50%;
-  border:solid purple 3px; border-radius:10px;
+  width:50%;height:70%;
+  border:solid blue 3px; border-radius:10px;
   color:blue;
+  font-size:83%;
 }
 
 .containerSobre h1{
@@ -67,7 +67,7 @@ header h1{
 
 #sobreMim{
   background-size:cover;background-repeat: no-repeat;
-  background-image:url('/img/index/galera.jpeg');
+  background-image:url('');
 }
 
 /* Sobre o curso */
@@ -82,9 +82,26 @@ header h1{
 }
 
 .icon{
-  width:10%;
+  width:20%;
+}
+
+#containerIcon{
+  position: absolute;
+  margin-top:8%;margin-left:5%;
 }
 
 .icon:hover{
   width:11%;
+}
+
+@media screen and (min-width:1200px) and (max-width:1500px) {
+  header{
+    height:600px; 
+  }
+  .sobre{
+    height:1000px;
+  }
+  .icon{
+    margin-top:5%;
+  }
 }
