@@ -9,7 +9,7 @@ html{
 }
 
 body{
-  font-family:serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header{
@@ -52,10 +52,11 @@ header h1{
 }
 
 .containerSobre{
-  background-color:whitesmoke;
-  width:50%;
-  border:solid purple 3px; border-radius:10px;
-  color:blue;
+  background-color:#f5f5f5;
+  width:50%;height:60%;
+  font-size: auto;
+  border:solid blue 3px; border-radius:10px;
+  color:black;
 }
 
 .containerSobre h1{
@@ -66,8 +67,8 @@ header h1{
 /* sobre mim */
 
 #sobreMim{
-  background-size:cover;background-repeat: no-repeat;
-  background-image:url('/img/index/galera.jpeg');
+  background-size:100% 100%;background-repeat: no-repeat;
+  background-image:url();
 }
 
 /* Sobre o curso */
