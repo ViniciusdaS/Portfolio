@@ -1,75 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página Principal</title>
-
-     <link rel="icon" href="./img/iconeSite.png">
-
-     <link rel="stylesheet" href="./css/styleIndex.css">
+    <title>Página principal</title>
+    <link rel="icon" href="./img/iconeSite.png">
+    <link rel="stylesheet" href="./css/styleIndex.css">
 </head>
 <body>
 
-<div class="parallax-window" data-parallax="scroll" data-image-src="/img/sobreMim/background/img3.jpeg">
+    <div id="parallax-window" class="parallax-window" data-parallax="scroll" data-image-src="./img/sobreMim/background/img3.jpeg">
 
-      <header>
-        <div id="containerTextoHeader">
-          <h1>Olá 👋 me chamo Vinicius, 
-          sou estudante de TI há dois anos, conheça a
-          seguir mais sobre mim.</h1>
-        </div>
-
-      </header>   
-      
-      <main>
-        <div class="sobre" id="sobreMim">
-          <br><br><br><br><br><br>
-          <div style="margin-left: 10%;" class="containerSobre" id="containerSobreMim">
-
-            <h1>Sou um jovem brasileiro de 19 anos, morador de uma grande metrópole
-              do sul do Brasil, chamada de São Leopoldo, uma cidade conhecida por ser o
-              berço da colonização alemã no Brasil, meus avós paternos eram imigrantes 
-              alemães e desde pequeno fui muito ligado à cultura alemã. 
+    <header id="header">
+        <div id="textHeader">
+            <h1>Olá, me chamo Vinicius, sou um brasileiro de 19 anos, morador de
+                São Leopoldo, uma metrópole do sul do Brasil conhecida por ser o
+                berço da colonização alemã no Brasil. Veja a seguir mais sobre mim
+                e sobre meu portfólio. 
             </h1>
-          </div>
-          <button id="botaoMudaPaginaSobreMim" class="botaoMudaPagina">Veja mais</button>
         </div>
+    </header>
 
-        <div class="sobre" id="sobreCurso">
-          <div class="containerSobre" id="containerSobreCurso">
-            <h1>Sou estudante de programação há dois anos, trabalhei bastante com VS_Code, editor de código
-              muito conhecido e tenho domínio de linguagens como HTML, CSS, Javascript e Typescript e também
-              já trabalhei com Java que não é meu foco no momento e meu foco está no desenvolvimento web já que
-              além de saber utilizar HTML, CSS, Javascript e Typescript também sei criar API's RESTfull.
-            </h1>
-          </div>
-          <button id="botaoMudaPaginaSobreCurso" class="botaoMudaPagina" type="button">Veja mais</button>
-            <br><br>
-                <img style="padding-left: 15%;" class="icon" id="iconHTML" src="./img/index/icons/html.png">
-                <br><br><br><br>
-                <img style="padding-left: 15%;" class="icon" id="iconCSS" src="./img/index/icons/css.png">
-                <br><br><br><br>
-                <img style="padding-left: 15%;" class="icon" id="iconJavascript" src="./img/index/icons/js.png">
-                <br><br><br><br>
-                <img style="padding-left: 15%;" class="icon" id="iconTypescript" src="./img/index/icons/typescript.png">
-              </div>
+    </div>
 
-        </div>
-      </main>
-</div>
 
-        <script>
-            document.getElementById("botaoMudaPaginaSobreCurso").addEventListener("click", function() {
-            window.location.href = "./experiencia.html";
-          });
-        </script>
-
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-      <script src="./Parallax/jQuery.min.js"></script>
-      <script src="./Parallax/parallax.min.js"></script>
-      <script src="./Parallax/parallax.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./Parallax/jQuery.min.js"></script>
+    <script src="./Parallax/parallax.min.js"></script>
+    <script src="./Parallax/parallax.js"></script>
 
 </body>
 </html>
