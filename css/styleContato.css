@@ -12,7 +12,7 @@ main{
 }
 
 #containerBio:hover{
-    border:solid purple;
+    border:solid blue;
     transform: translateY(3%);
 }
 

@@ -7,27 +7,19 @@
     <link rel="icon" href="./img/iconeSite.png">
     <link rel="stylesheet" href="./css/styleIndex.css">
 </head>
-<body>
-
-    <div id="parallax-window" class="parallax-window" data-parallax="scroll" data-image-src="./img/sobreMim/background/img3.jpeg">
-
-    <header id="header">
-        <div id="textHeader">
-            <h1>Olá, me chamo Vinicius, sou um brasileiro de 19 anos, morador de
-                São Leopoldo, uma metrópole do sul do Brasil conhecida por ser o
-                berço da colonização alemã no Brasil. Veja a seguir mais sobre mim
-                e sobre meu portfólio. 
-            </h1>
+<body style="background-color:black;">
+    <main style="background-color: aliceblue; width:30%; margin-left:10%; background-size:cover;">
+        <img src="./img/index/fotoMinha.png" style="width:500px; padding-left:30%;">
+        <div>            
+            <button onclick="goContact()" class="button">Contato</button>
         </div>
-    </header>
+    </main>
 
-    </div>
-
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script src="./Parallax/jQuery.min.js"></script>
-    <script src="./Parallax/parallax.min.js"></script>
-    <script src="./Parallax/parallax.js"></script>
-
+    <script>
+        
+        const goContact = () => {
+            window.location.href = "./contato.html"
+        }
+    </script>
 </body>
 </html>

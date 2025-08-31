@@ -1,27 +1,8 @@
-/* Page  */
-
-html{
-    height:200%;
+.button{
+    width:100px;
+    height:30px;
 }
 
-body{
-    padding:0;
-    margin:0;
-}
-
-/* Header */
-
-.parallax-window{
-    height:1000px;
-}
-
-#header{
-    height:500px;
-    background-color:rgba(245, 245, 245, 0.186);
-}
-
-#textHeader{
-    height:80%;
-    width:30%;
-    font-size:100%;
+.button:hover{
+    border:solid blue;
 }
