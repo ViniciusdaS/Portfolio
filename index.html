@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="width:100%; height:100%;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,18 +7,39 @@
     <link rel="icon" href="./img/iconeSite.png">
     <link rel="stylesheet" href="./css/styleIndex.css">
 </head>
-<body style="background-color:black;">
-    <main style="background-color: aliceblue; width:30%; margin-left:10%; background-size:cover;">
-        <img src="./img/index/fotoMinha.png" style="width:500px; padding-left:30%;">
-        <div>            
-            <button onclick="goContact()" class="button">Contato</button>
-        </div>
+<body style="background-color:black; padding:0; margin:0;">
+
+    <main style="width:50%; height:70%; margin-left:25%; position:absolute;">
+        <ul style="margin-left:30%; list-style:none; margin-top:23%;">
+            <li><button onClick="goAboutMe()" class="button">Who i am ?</button></li>
+            <li><button onClick="goPortfolio()" class="button">Work</button></li>
+            <li><button onclick="goContact()" class="button">Contact</button></li>
+        </ul>
     </main>
 
+    <style>
+        .button{
+            border:solid;
+            border-radius:7px;
+            width:50%;height:50px;
+            margin-top:3%;
+        }
+        .button:hover{
+            cursor:pointer;
+            border:solid blue;
+            margin-top:4%;
+        }
+    </style>
+
     <script>
-        
+        const goAboutMe = () => {
+            window.location.href = "./AboutMe.html"
+        }
         const goContact = () => {
             window.location.href = "./contato.html"
+        }
+        const goPortfolio = () => {
+            window.location.href = "./conteudo.html"
         }
     </script>
 </body>
