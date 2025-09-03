@@ -5,35 +5,94 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
     <link rel="icon" href="./img/iconeSite.png">
+    <link rel="stylesheet" href="./css/styleHeader.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
 </head>
-<body style="padding:0;margin:0;background-image:url(./img/aboutMe/pracaImigrante.jpeg); background-repeat:no-repeat;background-size:cover;">
+<body style="padding:0;margin:0;">
 
-    <main style="width:50%;height:100%;">
-        <div id="myHistory" style="background-image:url(./img/aboutMe/pracaImigrante.jpeg); background-size:cover;">
-            <div class="painting">
-                <h1 class="textPainting">Me chamo Vinicius e sou um brasileiro de 19 anos, morador de uma
-                    cidade do sul do Brasil conhecida historicamente por ser o berço da colonização alemã 
-                    no Brasil.
+    <div class="parallax-window" data-parallax="scroll" data-image-src="./img/aboutMe/background3.jpeg">
+
+        <header class="p-4 text-bg-dark">
+            <div class="containerHeader">
+              <div class="justify-content-center">
+                <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                  <svg class="" width="60" height="9" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"/></svg>
+                </a>
+        
+                <ul class="nav justify-content-center">
+                  <li class="paths"><a href="./index.html" class="nav-link text-white">Home</a></li>
+                  <li class="paths"><a href="./AboutMe.html" class="nav-link text-white">Sobre mim</a></li>
+                  <li class="paths"><a href="./blog.html" class="nav-link text-white">Blog</a></li>
+                  <li class="paths"><a href="./conteudo.html" class="nav-link text-white">Trabalhos</a></li>
+                  <li class="paths"><a href="./contato.html" class="nav-link text-white">Contato</a></li>
+                </ul>
+              </div>
+            </div>
+          </header>
+
+    <main>
+        <div id="myHistory">
+                <img src="./img/aboutMe/pracaImigrante.jpeg" style="width:600px;height:300px;position:absolute;margin-left:10%;margin-top:4%;border:solid whitesmoke;;border-radius:10px">
+                <img class="icon" src="./img/aboutMe/bandeira-alema.png" style="margin-left:60%;margin-top:10%;">
+            <div class="painting" style="margin-top:24.5%;margin-left:50%;">
+                <h1 class="textPainting">Me chamo Vinicius, sou um brasileiro de 19 anos nascido em Novo Hamburgo
+                    e morador de São Leopoldo, descendente de imigrantes alemães.
                 </h1>
             </div>
+        </div>
+        <div id="myCareer">
+            <div class="painting" style="margin-top:42%;margin-left:9%;">
+                <h1 class="textPainting">Sou formado em Técnico em Desenvolvimento de Sistemas pela
+                    instituição Senac de São Leopoldo, o curso técnico teve duração de um ano e meio
+                    e me introduziu de forma abrangente no mercado de TI, digo que o curso me introduziu 
+                    de forma abrangente pois já havia feito antes três cursos de curta duração também oferecidos pela
+                    instituição Senac de São Leopoldo que me introduziram
+                    de forma inicial na área, sendo um de introdução a lógica de programação, um de introdução aos testes
+                    de software e um de introdução à linguagem Python. 
+                </h1>
+            </div>
+            <img src="./img/aboutMe/guys.jpeg" style="width:600px;height:300px;position:absolute;margin-left:50%;margin-top:107%;border:solid whitesmoke;;border-radius:10px">
+            <img class="icon" src="./img/aboutMe/sistemas-de-ti.png" style="margin-left:26%;margin-top:110%;">
         </div>
     </main>
 
     <div style="width:100%;"></div>
 
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="./Parallax/jQuery.min.js"></script>
+    <script src="./Parallax/parallax.min.js"></script>
+    <script src="./Parallax/parallax.js"></script>
+
     <style>
+        html{
+            width:100%;
+            height:200%;
+        }
         .painting{
             position:relative;
             position: absolute;
-            background-color:aliceblue;
+            background-color:darkblue;
             width:40%;height:auto;
-            margin-left:50%;margin-top:20%;
             border-radius:10px;
-            border:solid black;
+            border:solid whitesmoke;
         }
         .textPainting{
             margin:1%;
+            color:whitesmoke;
+        }
+        .icon{
+            position:absolute;
+            width:10%;
+        }
+        .parallax-window{
+            height:2100px;
         }
     </style>
+
+
+
 </body>
 </html>

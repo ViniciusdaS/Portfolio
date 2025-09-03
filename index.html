@@ -7,12 +7,13 @@
     <link rel="icon" href="./img/iconeSite.png">
     <link rel="stylesheet" href="./css/styleIndex.css">
 </head>
-<body style="background-color:black; padding:0; margin:0;">
+<body style="background-image: url(./img/index/backIndex.jpg);background-repeat:no-repeat;background-size:cover; padding:0; margin:0;">
 
-    <main style="width:50%; height:70%; margin-left:25%; position:absolute;">
+    <main id="main" style="width:50%; height:50%; margin-left:20%; position:absolute;">
         <ul style="margin-left:30%; list-style:none; margin-top:23%;">
             <li><button onClick="goAboutMe()" class="button">Who i am ?</button></li>
-            <li><button onClick="goPortfolio()" class="button">Work</button></li>
+            <li><button onClick="goPortfolio()" class="button">Works</button></li>
+            <li><button onClick="goBlog()" class="button">Blog</button></li>
             <li><button onclick="goContact()" class="button">Contact</button></li>
         </ul>
     </main>
@@ -21,12 +22,12 @@
         .button{
             border:solid;
             border-radius:7px;
-            width:50%;height:50px;
+            width:70%;height:70px;
             margin-top:3%;
         }
         .button:hover{
             cursor:pointer;
-            border:solid blue;
+            border:solid;
             margin-top:4%;
         }
     </style>
@@ -40,6 +41,9 @@
         }
         const goPortfolio = () => {
             window.location.href = "./conteudo.html"
+        }
+        const goBlog = () => {
+            window.location.href = "./blog.html"
         }
     </script>
 </body>

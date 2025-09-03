@@ -11,21 +11,22 @@ html{
 }
 
 .aulas{
-    background-color:whitesmoke;
+    background-color:blue;
     width:50%;height:auto;
-    border:solid;border-color:black;border-radius:10px;
+    border:solid;border-color:white;border-radius:10px;
     text-align:center;
 }
 
 h2{
     padding-right:11%;
     padding-top:10%;
+    color:white;
 }
 
 .link{
     margin-right:13%;
     text-decoration:none;
-    color:black;
+    color:white;
 }
 
 ul{
@@ -33,7 +34,7 @@ ul{
 }
 
 ul a:hover{
-    text-decoration:underline blue;
+    text-decoration:underline white;
 }
 
 .parallax-window{
