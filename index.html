@@ -9,12 +9,17 @@
 </head>
 <body style="background-image: url(./img/index/backIndex.jpg);background-repeat:no-repeat;background-size:cover; padding:0; margin:0;">
 
-    <main id="main" style="width:50%; height:50%; margin-left:20%; position:absolute;">
-        <ul style="margin-left:30%; list-style:none; margin-top:23%;">
-            <li><button onClick="goAboutMe()" class="button">Who i am ?</button></li>
-            <li><button onClick="goPortfolio()" class="button">Works</button></li>
-            <li><button onClick="goBlog()" class="button">Blog</button></li>
-            <li><button onclick="goContact()" class="button">Contact</button></li>
+    <main id="main" style="width:50%; height:50%; margin-left:16%; position:absolute;">
+        <img src="./img/index/me.jpeg" style="width:15%;position:absolute;margin-top:10%;margin-left:57%;border-radius:50%;">
+        <ul style="margin-left:40%; list-style:none; margin-top:30%;">
+            <li><button onClick="goAboutMe()" class="button" id="buttonAboutMe">About me</button></li>
+            <li><button onClick="goPortfolio()" class="button" id="buttonWorks">Works</button></li>
+            <li><button onClick="goBlog()" class="button" id="buttonBlog">Blog</button></li>
+            <div class="containerIconLinks" style="margin-top:5%;margin-left:10%;">
+                <a href="https://github.com/ViniciusdaS"><img src="./img/index/github.png" class="iconLink"></a>
+                <a href="https://www.instagram.com/txxeira_viniciuss?igsh=MWZxYmRlaDB3NDl3Ng=="><img src="./img/index/instagram.png" class="iconLink"></a>
+                <a href="https://www.linkedin.com/in/vinicius-teixeira-77732833b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./img/index/linkedin.png" class="iconLink"></a>
+            </div>
         </ul>
     </main>
 
@@ -24,11 +29,17 @@
             border-radius:7px;
             width:70%;height:70px;
             margin-top:3%;
+            color:white;
+            background-color:blue;
         }
         .button:hover{
             cursor:pointer;
             border:solid;
             margin-top:4%;
+        }
+        .iconLink{
+            width:10%;
+            padding:3%;
         }
     </style>
 

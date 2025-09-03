@@ -1,7 +1,16 @@
+header{
+    background-color:darkblue;
+    height:100px;
+}
+
 .containerHeader{
     font-size:30px;
 }
 
+.containerPaths{
+    margin-top:1%;
+}
+
 .paths:hover{
-    text-decoration:underline blue;
+    text-decoration:underline white;
 }
