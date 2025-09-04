@@ -8,8 +8,7 @@
     <link rel="icon" href="./img/iconeSite.png">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/css/styleHeader.css">
-    <link rel="stylesheet" href="/css/styleBlog.css">   
+    <link rel="stylesheet" href="/css/styleHeader.css">  
 </head>
 <body>
 
@@ -27,108 +26,42 @@
                 <ul class="nav justify-content-center" style="margin-top:1%;">
                   <li class="paths"><a href="./index.html" class="nav-link text-white">Home</a></li>
                   <li class="paths"><a href="./AboutMe.html" class="nav-link text-white">About me</a></li>
-                  <li class="paths"><a href="./blog.html" class="nav-link text-white">Blog</a></li>
-                  <li class="paths"><a href="./conteudo.html" class="nav-link text-white">Trabalhos</a></li>
+                  <li class="paths"><a href="./blog.html" class="nav-link text-white">Highlights</a></li>
+                  <li class="paths"><a href="./conteudo.html" class="nav-link text-white">Activities</a></li>
                 </ul>
               </div>
             </div>
         </header>
 
-<main>
-  <div class="containerQuadros">
-    <div class="quadros">
-      <h1>The Scream</h1>
-      <img src="./img/imgsBlog/TheScream.PNG">
-      <p>Uma das primeiras atividades feitas durante minhas aulas de front estático. A pintura "O grito" do autor Edvard Munch</p>
-    </div>
-  </div>
-
-    <br><br><br>
-    
-  <div class="containerQuadros">
-    <div class="quadros">
-        <h1>Personagens</h1>
-        <img src="./img/imgsBlog/personagems.PNG">
-        <p>Atividade personagem que fiz durante minhas aulas de frontend, a atividade era
-          criar um site estático com o tema á escolha da pessoa, que tenha personagens com
-          cada tipo de personagem, como guerreiro, mágico, etc.</p>
-    </div>
-  </div>
-
-    <br><br><br>
-
-  <div class="containerQuadros">
-    <div class="quadros">
-      <h1>Correio anônimo</h1>
-      <img src="./img/imgsBlog/correioAnonimo.PNG">
-      <p>Atividade relacionada a um amigo secreto, a atividade consistia em fazer um site
-        estático com uma mensagem elogiando a pessoa, tanto pela aparência quanto pelo caráter</p>
-    </div>
-  </div>
-
-    <br><br><br>
-
-  <div class="containerQuadros">
-    <div class="quadros">
-      <h1>Cartão de pascoa</h1>
-      <img src="./img/imgsBlog/cartaoPascoa.PNG">
-      <p>Atividade em que o objetivo era criar um site estático, relacionado a um cartão
-        de páscoa que seja interativo(Javascript). </p>
-    </div>
-  </div>
-
-    <br><br><br>
-
-    <div class="containerQuadros">
-        <div class="quadros">
-            <h1>Calculadora</h1>
-            <img src="./img/imgsBlog/calculadoraEinstein.PNG">
-            <p>Atividade avaliativa, uma calculadora com funções de cálculo em Javascript, 
-              a calculadora deve ter o  visual de uma calculadora padrão.</p>
+        <main style="display: grid; justify-content: center;">
+          <div class="painting">
+            <img class="img" src="./img/imgsBlog/pokedexAPI.PNG">
           </div>
-        </div>
-
-          <br><br><br>
-
-      <div class="containerQuadros">
-        <div class="quadros">
-            <h1>Interestelar</h1>
-            <img src="./img/imgsBlog/interstelar.PNG">
-            <p>Atividade em que o objetivo era fazer um site com qualquer tema possível, eu
-            escolhi Interestelar.</p>
-        </div>
-      </div>
-
-        <br><br><br>
-
-    <div class="containerQuadros">
-      <div class="quadros">
-        <h1>Portfólio</h1>
-        <img src="./img/imgsBlog/portfolio.PNG">
-        <p>Atividade do portfólio, desenvolver um portfólio com as atividades feitas durante
-          a disciplina de frontend.</p>
-      </div>
-    </div>
-
-      <br><br><br>
-
-    <div class="containerQuadros">
-      <div class="quadros">
-        <h1>Pokedex</h1>
-        <img src="./img/imgsBlog/pokedexAPI.PNG">
-        <p>Trabalho avaliativo Pokedex, desenvolver uma pokedex virtual usando de uma api
-        para gerar as informações dos pokemons.</p>
-      </div>
-    </div>
-      <br>
-      <br>
-    </div>
-  </div>
-  </main>
+        </main>
 
   </div>
 
-  </div>
+  <style>
+    html{
+      width:100%;
+      height:100%;
+    }
+    .painting{
+      display:flex;
+      width:70%;height:50%;
+      background-color:green;
+      margin-top:10%;
+      border:solid white;
+    }
+    .img{
+      position:relative;
+      background-size:cover;
+      width:100%;
+    }
+    .parallax-window{
+      height:700px;
+    }
+  </style>
 
     <script src="./Parallax/jQuery.min.js"></script>
     <script src="./Parallax/parallax.min.js"></script>
