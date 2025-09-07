@@ -9,37 +9,48 @@
 </head>
 <body style="background-image: url(./img/index/backIndex.jpg);background-repeat:no-repeat;background-size:cover; padding:0; margin:0;">
 
-    <main id="main" style="width:50%; height:50%; margin-left:16%; position:absolute;">
-        <img src="./img/index/me.jpeg" style="width:15%;position:absolute;margin-top:10%;margin-left:57%;border-radius:50%;">
-        <ul style="margin-left:40%; list-style:none; margin-top:30%;">
-            <li><button onClick="goAboutMe()" class="button" id="buttonAboutMe">About me</button></li>
-            <li><button onClick="goPortfolio()" class="button" id="buttonWorks">Activities</button></li>
-            <li><button onClick="goBlog()" class="button" id="buttonBlog">Highlights</button></li>
-            <div class="containerIconLinks" style="margin-top:5%;margin-left:10%;">
+    <main id="main" style="margin-top:5%;">
+            <div>
+                <img src="./img/index/me.jpeg" style="width:8%;border-radius:50%;margin-left:46%;">
+            </div>
+
+            <div style="margin-left:37%;display:grid;">
+                <button onClick="goAboutMe()" class="button" id="buttonAboutMe">About me</button>
+                <button onClick="goPortfolio()" class="button" id="buttonWorks">Activities</button>
+                <button onClick="goBlog()" class="button" id="buttonBlog">Highlights</button>
+            </div>
+            <div id="containerIconLinks" style="margin-left:43%;margin-top:1%;">
                 <a href="https://github.com/ViniciusdaS"><img src="./img/index/github.png" class="iconLink"></a>
                 <a href="https://www.instagram.com/txxeira_viniciuss?igsh=MWZxYmRlaDB3NDl3Ng=="><img src="./img/index/instagram.png" class="iconLink"></a>
                 <a href="https://www.linkedin.com/in/vinicius-teixeira-77732833b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><img src="./img/index/linkedin.png" class="iconLink"></a>
             </div>
-        </ul>
     </main>
+
+    <button class="copiar" onclick="copyeText()" style="width:2%;height:3%;position:absolute;margin-left:66%;margin-top:7.6%;"><img src="./img/index/copy.png" style="width:100%;background-size:cover;"></button>
+
+    <h1 style="color:white;position:absolute;margin-left:35%;margin-top:7%;">Phone:</h1><h1 style="color:white;position:absolute;margin-left:42%;margin-top:7%;text-decoration: underline;">+55 (51) 9 9273-6508</h1>
 
     <style>
         .button{
             border:solid;
             border-radius:7px;
-            width:70%;height:70px;
+            width:40%;height:50px;
             margin-top:3%;
             color:white;
             background-color:blue;
+            
         }
         .button:hover{
             cursor:pointer;
             border:solid;
-            margin-top:4%;
+            margin-top:3.3%;
         }
         .iconLink{
-            width:10%;
-            padding:3%;
+            width:5%;
+            padding:1%;
+        }
+        .copiar:hover{
+            cursor: pointer;
         }
     </style>
 
@@ -52,6 +63,10 @@
         }
         const goBlog = () => {
             window.location.href = "./blog.html"
+        }
+
+        const copyeText = () => {
+            navigator.clipboard.writeText("51 9 9273-6508")
         }
     </script>
 </body>
