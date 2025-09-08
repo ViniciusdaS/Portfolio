@@ -33,13 +33,27 @@
             </div>
         </header>
 
-        <main style="display: grid; justify-content: center;">
+        <main style="display: grid;">
           <div class="painting">
-            <img class="img" src="./img/imgsBlog/pokedexAPI.PNG">
-          </div>
-        </main>
+                <img class="img" src="./img/imgsBlog/pokedexAPI.PNG">
+          <div class="containerTextPainting">
+              <h1>Pokedex API</h1>
+            <p>This is my calculator project, a calculator with style in HTML and CSS and
+              math functions in Javascript.
+            </p>
+            </div>
+        </div>
 
-  </div>
+        <div class="painting">
+                <img class="img" src="./img/imgsBlog/calculadoraEinstein.PNG">
+          <div class="containerTextPainting">
+            <h1>Einstein calculator</h1>
+            <p>This is my API project, a fun and interactive pokedex, with
+              styles in HTML and CSS, and Javascript functions.
+            </p>
+            </div>
+        </div>
+        </main>
 
   <style>
     html{
@@ -47,19 +61,23 @@
       height:100%;
     }
     .painting{
-      display:flex;
-      width:70%;height:50%;
-      background-color:green;
-      margin-top:10%;
+      position:relative;
+      width:40%;height:60%;
+      background-color:black;
+      margin-top:6%;margin-left:4%;
       border:solid white;
     }
     .img{
-      position:relative;
-      background-size:cover;
-      width:100%;
+      width:100%;height:100%;
+      background-size: cover;
+    }
+    .containerTextPainting{
+      margin-top:4%;
+      width:90%;
+      color:white;
     }
     .parallax-window{
-      height:700px;
+      height:1200px;
     }
   </style>
 
