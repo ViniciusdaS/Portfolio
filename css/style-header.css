@@ -1,0 +1,37 @@
+.container-header{
+    width:100%;height:100px;
+    background-color:darkblue;
+}
+
+.container-paths{
+    display:flex;
+    font-size: 30px;
+    justify-content:center;
+}
+
+.paths{
+    color:white;
+    text-decoration:none;
+    list-style:none;
+    padding:5px; 
+    margin-top:1.4%;
+}
+
+.paths:hover{
+    text-decoration:underline;
+}
+
+@media screen and (min-width:300px) and (max-width:500px){
+    .container-header{
+        width:100%;height:4%;
+        background-color:darkblue;
+    }
+    .container-paths{
+        font-size: 15px;
+        justify-content:baseline;
+    }
+    .paths{
+        padding:3px;
+        margin-top:8%;
+    }
+}

@@ -1,0 +1,30 @@
+html{
+    width:100%;
+    height:100%;
+}
+
+.containerPainting{
+    display:grid;
+    width:30%;height:20%;
+    margin-top:10%;margin-left:4%;
+    background-color:black;
+    border:solid white;
+}
+
+.titlePainting{
+    color:white;
+    margin-top: 2%;
+}
+
+.textPainting{
+    color:white;
+}
+
+.img{
+    width:100%;height:100%;
+    background-size: cover;
+}
+
+.parallax-window{
+    height:1500px;
+}

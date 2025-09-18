@@ -1,0 +1,84 @@
+
+/* Page */
+
+html{
+    width:100%;
+    height:100%;
+}
+
+/* main */
+
+.titleUC{
+    color:white;
+    text-align:center;
+}
+
+.containerClassesFront{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    justify-items:center;
+    gap:20px;
+    margin-top:5%;
+}
+
+.classes{
+    background-color:blue;
+    width:50%;height:auto;
+    border:solid;border-color:white;border-radius:10px;
+    text-align:center;
+}
+
+h2{
+    padding-right:11%;
+    padding-top:10%;
+    color:white;
+}
+
+.link{
+    margin-right:13%;
+    text-decoration:none;
+    color:white;
+}
+
+ul{
+    list-style: none;
+}
+
+ul a:hover{
+    text-decoration:underline white;
+}
+
+.parallax-window{
+    height:1400px;
+}
+
+/* Response */
+
+@media screen and (min-width:300px) and (max-width:400px) {
+    .containerClassesFront{
+        display:grid;
+        grid-template-columns:repeat(2, 1fr);
+        justify-items:auto;
+        gap:20px;
+        margin-top:5%;
+    }
+    .aulas{
+        background-color:blue;
+        border:solid;border-color:white;border-radius:10px;
+        text-align:center;
+    }
+    .aulas{
+        background-color:blue;
+        width:80%;height:auto;
+        border:solid;border-color:white;border-radius:10px;
+        text-align:center;
+    }
+    .link{
+        margin-right:50%;
+        text-decoration:none;
+        color:white;
+    }
+    .parallax-window{
+        height:2000px;
+    }
+}
